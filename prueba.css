@@ -268,9 +268,9 @@ ul li {
   padding-top: 10px;
   font-family: 'Yatra One' italic;
   font-size: 1.5 rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px; }
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px; }
 
 footer {
   background-color: #7f31d8; }
@@ -285,15 +285,23 @@ footer {
     grid-template-areas:
     "nombre logos";
     grid-template-columns: 20rem 20rem;
-  grid-template-rows: max-content;
+    grid-column-gap: 60rem;
+  background-color: #582097;
+  padding-bottom: 5rem;
 }
 .nombre{
   grid-area: nombre;
+  background-color: #582097;
+  margin-left: 20%;
+  margin-top: 20%;
 }
 .logos{
   grid-area: logos;
   display: flex;
   justify-content: flex-end;
+  background-color: #582097;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 .img_carrusel {
@@ -307,7 +315,8 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   margin-left: 2%;
-  margin-right: 2%; }
+  margin-right: 2%; 
+padding-bottom: 3rem;}
 
 .img_logo {
   width: 1.2rem;
@@ -320,7 +329,9 @@ footer {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 0;
-  margin-right: 20px; }
+  margin-right: 20px; 
+padding-bottom: 5rem;
+}
 
 .formulario_contacto {
   text-align: center;
