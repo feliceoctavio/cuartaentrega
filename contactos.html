@@ -17,7 +17,7 @@
                 <li > <a href="index.html"><span id="blanco"> home</span></a></li>
                 <li ><a href="./portafolio.html"><span id="blanco"> portafolio</span></a></li>
                 <li ><a href="./sobremi.html"><span id="blanco"> sobre mi</span></a></li>
-                <li ><a href="./servicios.html"><span id="blanco"> servicios</span></a></li>
+                <li ><a href="./servicios.html"><span id="blanco"> CV</span></a></li>
                 <li ><a href="./contactos.html"><span id="blanco"> contactos</span></a></li>
                 <img src="./logo.png" alt="logo" class="imglogo">
             </ul>
@@ -29,14 +29,14 @@
         <h1 class="font_title">Para mas informacion</h1>
     </div>
     </header>
-    <main>
+    <main class="fondocontacto">
         <form class="formulario_contacto">
             <div class="form-group">
-            <label for="exampleFormControlInput1" class="negrita">Email</label>
+            <label for="exampleFormControlInput1" class="negrita fontestilo">Email</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group">
-            <label for="exampleFormControlSelect1" class="negrita">Como descubriste mi pagina</label>
+            <label for="exampleFormControlSelect1" class="negrita fontestilo">Como descubriste mi pagina</label>
             <select class="form-control" id="exampleFormControlSelect1" >
                 <option>por un amigo</option>
                 <option>por redes</option>
@@ -45,7 +45,7 @@
             </select>
             </div>
             <div class="form-group">
-            <label for="exampleFormControlSelect2" class="negrita">Que te parecio la pagina?</label>
+            <label for="exampleFormControlSelect2" class="negrita fontestilo">Que te parecio la pagina?</label>
             <select multiple class="form-control" id="exampleFormControlSelect2" >
                 <option>Bueno</option>
                 <option>Regular</option>
@@ -54,17 +54,24 @@
             </select>
             </div>
             <div class="form-group">
-            <label for="exampleFormControlTextarea1" class="negrita">Para opiniones</label>
+            <label for="exampleFormControlTextarea1" class="negrita fontestilo fontestilo">Para opiniones</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     <input type="reset"value="limpiar formulario" class=" negrita">
                     <input type="submit" value="enviar formulario" class=" negrita"><br>
-                    <strong class="googlefont1  negrita"> acepto terminos y condiciones </strong>
+                    <strong class="googlefont1  negrita fontestilo"> acepto terminos y condiciones </strong>
                     <input type="checkbox" value="1" class="sizecheck"><br>
                 </select> 
             </form> 
         </div>
     </main>
-    <footer><ul>
+    <footer id="grillafotter">
+        <div class="nombre">
+            <h3>Felice Octavio</h3>
+            <h4>Derechos de autor reservados  </h4>
+            <h4>Terminos y condiciones</h4>
+        </div>
+        <div class="logos">
+        <ul>
         <li > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope img_logo" viewBox="0 0 16 16">
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
         </svg>
@@ -82,9 +89,9 @@
         <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook img_logo" viewBox="0 0 16 16">
             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
         </svg>
-        <li >derechos de autor reservados  terminos y condiciones</li>
         </li>
     </ul>
+</div>
     </footer>
 </body>
 </html>
